@@ -9,6 +9,11 @@ header {
     color: #fff;
     padding: 10px 0;
     height: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
     /* display: flex; */
     /* justify-content: space-around; */
 }
@@ -120,6 +125,18 @@ ul li a {
 .right li:first-child a {
     color: #1E1E1E;
 }
+
+
+
+#carouselExampleIndicators{
+    margin-top: 100px;
+}
+
+
+
+
+
+
 
 .banner img {
     width: 100%;
